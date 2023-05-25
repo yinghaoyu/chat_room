@@ -1,6 +1,6 @@
 # 编译执行
 ```
-git clone https://github.com/sylar-yin/chat_room.git
+git clone https://github.com/yinghaoyu/chat_room.git
 cd chat_room
 git submodule update --init --recursive
 make
