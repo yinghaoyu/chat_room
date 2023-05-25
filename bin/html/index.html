@@ -48,9 +48,14 @@
         }
     </script>
     <body>
-        昵称:<input id="tname" type="text"/><button onclick="login()">登录</button><br/>
-        聊天信息:<input id="msg" type="text"/><button onclick="sendmsg()">发送</button><br/>
-        <div id="message">
-        </div>
+    <label for="tname" style="display: inline-block; width: 70px;">昵称:</label>
+    <input id="tname" type="text" style="display: inline-block; width: 100px; margin-right: 10px;"/>
+    <button onclick="login()" style="display: inline-block;">登录</button><br/><br/>
+
+    <label for="msg" style="display: inline-block; width: 70px;">聊天信息:</label>
+    <input id="msg" type="text" style="display: inline-block; width: 100px; margin-right: 10px;"/>
+    <button onclick="sendmsg()" style="display: inline-block;">发送</button><br/><br/>
+
+    <div id="message"></div>
     </body>
 </html>
